@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portofolio iqbal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- header & navbar -->
+  <header>
+    <nav class>
+      <div class="logo">Web Portofolio</div>
+    </nav>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills & Tools</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- hero -->
+  <section id="hero" class="hero">
+    <img src="./img/Foto Iqbal.png">
+    <div class="content-text">
+        <h1>Halloowww,  I'm <span class="highlight">Iqbal Rizaldi</span></h1>
+        <p>Web Developer | Graphic Designer | Junior IT</p>
+    </div>
+  </section>
+
+  <!-- about -->
+  <section id="about" class="about">
+    <div id="space"></div>
+    <h2>About Me</h2>
+    <p>
+        I am a student majoring in <span class="highlight"><b>Information Technology</b></span>, Faculty of Computer Science, University of Jember.
+        Now, i have interest with software development and design. I also participate in organizations to
+        help develop my skills in critical thinking, teamwork, problem solving, and public speaking.
+    </p>
+  </section>
+
+  <!-- projects -->
+  <section id="projects" class="projects">
+    <div id="space-project"></div>
+      <h2 id="to-block">Projects</h2>
+    <div class="project-card">
+      <h3>BoostGro Mart</h3>
+      <p class="project-desc">BoostGro Mart is a console based information
+          system for agrocurtural product sales. The
+          system is designed to make it easier for people
+          to buy agricultural products at lower prices, as
+          farmers can sell their products directly. The
+          system was developed using Basic Algorithms
+          and Python programming language with Visual
+          Studio Code software.
+      </p>
+      <div id="to-center">
+        <img src="./img/BoostGro 1.png" class="project-img">
+        <img src="./img/BoostGro 2.png" class="project-img">        
+      </div>
+      <button class="toggle-btn">View More</button>
+    </div>
+    <div class="project-card">
+      <h3>Cands Laundry</h3>
+      <p class="project-desc">Cands Laundry is a console based laundry service management
+          information system at cands laundry. The purpose of creating this
+          system is to make it easier for employees to record customer
+          transaction data, because initially they recorded it manually in a book.
+          The system was developed using Basic Algorithms, Basic SQL
+          programming and Python programming language with Visual Studio
+          Code software, also using Postgre SQL for the database.
+      </p>
+      <button class="toggle-btn">View More</button>
+    </div>
+    <div class="project-card">
+      <h3>MovieLand</h3>
+      <p class="project-desc">
+        MovieLand is movie ticket booking application as a solution of queue digitalization and transaction efficiency. 
+        The purpose of this system is to make transactions more efficient, and customers do not need to queue to purchase tickets. 
+        The application was developed using OOP Concept, Basic SQL programming and C# programming language with Microsoft Visual Studio software, 
+        also using Postgre SQL for the database and Canva for UI Design.
+      </p>
+      <div id="to-center">
+        <img src="./img/MovieLand 1.png" class="project-img">
+        <img src="./img/MovieLand 2.png" class="project-img">
+        <img src="./img/MovieLand 3.png" class="project-img">
+        <img src="./img/MovieLand 4.png" class="project-img">
+      </div>
+      <button class="toggle-btn">View More</button>
+    </div>
+  </section>
+
+  <!-- skills -->
+  <section id="skills" class="skills">
+    <div id="space"></div>
+    <h2>Skills & Tools</h2>
+    <div class="skills-container">
+      <a target="_blank" href="https://www.w3schools.com/html/">
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" class="skills-img">
+      </a>
+      <a target="_blank" href="https://www.w3schools.com/css/">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" class="skills-img">
+      </a>
+      <a target="_blank" href="https://www.w3schools.com/js/">
+        <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" class="skills-img">
+      </a>
+      <a target="_blank" href="https://www.w3schools.com/php/">
+        <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" class="skills-img">
+      </a>
+      <a target="_blank" href="https://www.w3schools.com/python/">
+        <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" class="skills-img">
+      </a>
+    </div>
+    <div class="skills-container">
+      <a target="_blank" href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=vscode" class="tools-img" />
+      </a>
+      <a target="_blank" href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=visualstudio" class="tools-img" />
+      </a>
+      <a target="_blank" href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=figma" class="tools-img" />
+      </a>
+      <a target="_blank" href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=postgresql" class="tools-img" />
+      </a>
+    </div>
+    <div id="space"></div>
+  </section>
+
+  <!-- contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div id="space"></div>
+  </section>
+
+  <!-- footer -->
+  <section class="footer">
+    <p id="text-center">Website Portofolio - Iqbal Rizaldi</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
